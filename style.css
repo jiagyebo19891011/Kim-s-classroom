@@ -1,0 +1,215 @@
+body {
+    font-family: sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ------------------
+   レベルボタン
+------------------ */
+
+.level {
+    background: #3498db;
+    color: white;
+}
+
+.level:hover {
+    background: #2980b9;
+}
+
+.n5 {
+    background: #27ae60;
+    color: white;
+}
+
+.n4 {
+    background: #3498db;
+    color: white;
+}
+
+.n3 {
+    background: #f39c12;
+    color: white;
+}
+
+.n2 {
+    background: #e67e22;
+    color: white;
+}
+
+.n1 {
+    background: #c0392b;
+    color: white;
+}
+
+/* ------------------
+   問題
+------------------ */
+
+.choice {
+    background: #ecf0f1;
+    color: #2c3e50;
+}
+
+.choice:hover {
+    background: #dfe6e9;
+}
+
+.next {
+    background: #27ae60;
+    color: white;
+}
+
+.next:hover {
+    background: #229954;
+}
+
+.back {
+    background: #7f8c8d;
+    color: white;
+}
+
+.back:hover {
+    background: #707b7c;
+}
+
+.reset {
+    background: #e74c3c;
+    color: white;
+}
+
+.reset:hover {
+    background: #c0392b;
+}
+
+/* ------------------
+   学習済み
+------------------ */
+
+.learned {
+    background: #f39c12;
+    color: white;
+}
+
+.learned:hover {
+    background: #d68910;
+}
+
+.learned.completed {
+    background: #16a085;
+    color: white;
+}
+
+/* ------------------
+   結果表示
+------------------ */
+
+#result {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#explanation {
+    margin-top: 10px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    color: #555;
+    border-radius: 6px;
+}
+
+/* ------------------
+   スコア表示
+------------------ */
+
+.stats {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* ------------------
+   進捗表示
+------------------ */
+
+#progress {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* ------------------
+   学習済み一覧
+------------------ */
+
+.learned-section {
+    margin-bottom: 25px;
+}
+
+.learned-question {
+    text-align: left;
+    background: #f1f2f6;
+    color: #2c3e50;
+}
+
+.learned-question:hover {
+    background: #dfe4ea;
+}
+
+.empty-message {
+    color: #888;
+    font-style: italic;
+}
+
+/* ------------------
+   模擬試験用
+------------------ */
+
+.mock-exam {
+    background: #8e44ad;
+    color: white;
+}
+
+.mock-exam:hover {
+    background: #71368a;
+}
